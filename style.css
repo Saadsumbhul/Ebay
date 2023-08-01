@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Market Sans", Arial, sans-serif;
+    font-size: small;
+}
+
+.header1 {
+    display: flex;
+    border-bottom: 1px solid #c4c2c2;
+    height: 33px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30.33%;
+    margin-left: 50px;
+}
+
+.center {
+    display: flex;
+    width: 43.33%;
+}
+
+.right {
+    display: flex;
+    width: 30.33%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.right img {
+    width: 20px;
+}
+
+/* Working on 2nd Row */
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95px;
+    border-bottom: 1px solid #c4c2c2;
+}
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.ebay-logo {
+    width: 95%;
+     /* position: relative;
+     transform: translate(-5%, -10%);   */
+}
+
+.search-icon {
+    width: 25px;
+}
+
+/* Giving Height and Adjusting positions of Items in 2nd Row. Ignore this Section */
+
+.col1 {
+    width: 25%;
+}
+.col2 {
+    width: 8%;
+}
+.col3 {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.col4 {
+    width: 13%;
+}
+
+/* Adjusting Width of Column 3 in 2nd row where Search Icon and Input box is residing */
+
+.search-icon {
+    position: absolute;
+    padding: 10px;
+}
+
+.search-bar {
+    width: 100%;
+    height: 40px;
+    padding-left: 50px;
+    font-size: large;
+    border: 3px solid rgb(58, 58, 58);
+}
+
+.col3 p {
+    transform: translateX(-150px);
+}
+
+.input-text {
+    border-left: 2px solid black;
+    padding-left: 5px;
+}
+
+.search-button {
+    width: 150px;
+    height: 48px;
+    font-size: large;
+    background-color: #3665F3;
+    color: white;
+    border: none;
+}
+
+/*Working on 3rd Row that is categories */
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: #000000b8;
+    height: 60px;
+}
+
+.categories p {
+    font-size: 15px;
+}
+
+.categories p:first-child{
+    color: black;
+}
+
+.items {
+    border-bottom: 1px solid #c4c2c2;
+}
+
+/* Working on Banner Billboard (4th Row) */
+
+.banner img {
+    width: 100%;
+}
+
+/* working on 5th Row after Banner Image */
+
+.deals {
+    margin-top: 50px;
+    margin-left: 3px;
+}
+
+.deals a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.deals a:first-child {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.deals a:last-child {
+    margin-left: 15px;
+    font-size: x-large;
+    border-left: 1px solid rgba(173, 173, 173, 0.704);
+    padding: 10px;
+}
+
+/* Working on 6th Row (Banner #2) after Daily Deals Section */
+
+.ebay-banner2 {
+    width: 100%;
+}
+
+.banner2 {
+    margin-top: 35px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 80px;
+}
+
+/* Working on footer */
+
+.flexbox {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 p:first-child {
+    font-weight: bold;
+}
+.row2 p:first-child {
+    font-weight: bold;
+}
+.row3 p:first-child {
+    font-weight: bold;
+}
+.row4 p:first-child {
+    font-weight: bold;
+}
+.row5 p:first-child {
+    font-weight: bold;
+}
+
+.flexbox p {
+    color: #767676;
+}
